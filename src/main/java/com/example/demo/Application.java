@@ -11,6 +11,10 @@ public class Application {
 	  ConfigurableApplicationContext run	=SpringApplication.run(Application.class, args);
             int a=20;
 	run.close();
-	}
-
+	} 
+    
+     // HIS-12 RELATED CHANGES
+     public void doProcess(){
+        //logic
+}   
 }
